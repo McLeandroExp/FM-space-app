@@ -1,0 +1,19 @@
+.logo{
+    width: 48px;
+    cursor: pointer;
+    position: fixed;
+    top: 25px;
+    left: 35px;
+}
+.logo-img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (min-width:1024px){
+.logo{
+    top: 64px;
+    left: 55px;
+}
+
+}

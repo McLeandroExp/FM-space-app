@@ -1,0 +1,145 @@
+.destination {
+  width: 100vw;
+  background-image: url("../../assets/destination/background-destination-mobile.jpg");
+  padding: 30px 30px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+.galery__title {
+  margin-top: 70px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 2.7px;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.galery__image {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 65%;
+}
+.galery__locations {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.galery__location {
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.selected {
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+  border-radius: 3px 3px;
+}
+.dest-info__name {
+  margin-top: 20px;
+  font-size: 56px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: "Bellefair", serif;
+}
+.dest-info__body {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: $secondary;
+  margin-bottom: 25px;
+}
+.planet-data__item {
+  margin-top: 30px;
+  & h3 {
+    margin-bottom: 15px;
+  }
+  & p {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: $secondary;
+  }
+}
+.planet-data__title {
+  color: $secondary;
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.planet-data__info {
+  font-family: "Bellefair", serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+@media screen and (min-width: 375px) {
+  .destination {
+    background-image: url("../../assets/destination/background-destination-tablet.jpg");
+  }
+}
+@media screen and (min-width: 580px) {
+  .galery__title {
+    margin-top: 110px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .destination {
+    background-image: url("../../assets/destination/background-destination-desktop.jpg");
+  }
+  .menu-container {
+    background-color: rgb(25, 26, 37);
+  }
+  .menu.regresar {
+    backdrop-filter: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .galery__title {
+    margin-top: 170px;
+  }
+  .destination__content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .galery {
+    flex-basis: 60%;
+  }
+  .destination__text {
+    flex-basis: 40%;
+  }
+  .destination__text hr {
+    width: 85%;
+  }
+  .galery__locations {
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  .dest-info__name {
+    text-align: left;
+    font-size: 100px;
+  }
+  .dest-info__body {
+    width: 75%;
+    text-align: left;
+  }
+  .planet-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .planet-data__item {
+    margin-right: 45px;
+  }
+}

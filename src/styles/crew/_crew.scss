@@ -1,0 +1,180 @@
+.crew {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url("../../assets/crew/background-crew-mobile.jpg");
+  padding: 15px 15px;
+  padding-bottom: 60px;
+}
+.crew-title {
+  margin-top: 70px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 2.7px;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.crew-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.crew-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: 30vh;
+  & img {
+    max-height: 100%;
+  }
+}
+.carousel-crew {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 35vw;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 0;
+}
+.carousel-crew-item {
+  width: 10px;
+  height: 10px;
+  background-color: #40434b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.crew-info {
+  margin-top: 30px;
+}
+.astronaut-position {
+  margin-top: 15px;
+  font-family: "Bellefair", serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: $secondary;
+  text-transform: uppercase;
+}
+.astronaut-name {
+  font-family: "Bellefair", serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.astronaut-info {
+  font-family: "Barlow Condensed", sans-serif;
+  color: $secondary;
+  margin-top: 15px;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: normal;
+}
+.crew-obscurecido {
+  background-color: #ffffff;
+}
+@media screen and (min-width: 375px) {
+  .crew {
+    background-image: url("../../assets/crew/background-crew-tablet.jpg");
+  }
+}
+@media screen and (min-width: 580px) {
+  .crew-title {
+    margin-top: 110px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+  .crew__content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .crew__info__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carousel-crew {
+    width: 88px;
+    height: 10px;
+  }
+  .crew-info {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .astronaut-position {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #8e8f93;
+  }
+  .astronaut-name {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .astronaut-info {
+    font-size: 16px;
+    line-height: 28px;
+    color: $secondary;
+  }
+  .crew-image {
+    width: 400px;
+    height: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .crew {
+    background-image: url("../../assets/crew/background-crew-desktop.jpg");
+  }
+  .menu-container {
+    background-color: rgb(25, 26, 37);
+  }
+  .menu.regresar {
+    backdrop-filter: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .crew {
+    padding-left: 120px;
+  }
+  .crew-title {
+    margin-top: 150px;
+  }
+  .crew__content {
+    flex-direction: row-reverse;
+  }
+  .crew__info__container {
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+  }
+  .astronaut-position,
+  .astronaut-name,
+  .astronaut-info {
+    text-align: left;
+  }
+
+  .astronaut-info {
+    margin-top: 30px;
+    text-align: left;
+    width: 80%;
+    height: 170px;
+  }
+  .carousel-crew {
+    margin-top: 50px;
+    margin-left: 0;
+    width: 167px;
+    justify-content: start;
+  }
+  .carousel-crew-item {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+  }
+}

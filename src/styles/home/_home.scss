@@ -1,0 +1,139 @@
+.home {
+  width: 100vw;
+  background-image: url("../../assets/home/background-home-mobile.jpg");
+  padding: 15px 15px;
+  // overflow: hidden;
+  min-height: 100vh;
+}
+.info {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  // height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+}
+.info__intro {
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: $secondary;
+}
+.info__title {
+  margin-top: 10px;
+  font-family: "Bellefair", serif;
+  // font-family: 'Barlow Condensed', sans-serif;
+  font-size: 80px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.info__body {
+  margin-top: 20px;
+  font-size: 15px;
+  color: $secondary;
+}
+.explore {
+  position: relative;
+  background-clip: padding-box;
+  margin-top: 70px;
+  width: 150px;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  & p {
+    color: $primary;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .home {
+    background-image: url("../../assets/home/background-home-tablet.jpg");
+    background-position: center;
+  }
+}
+@media screen and (min-width:580px){
+  .info{
+    margin-top: 150px;
+  }
+  .info__intro{
+    font-size: 20px;
+  }  
+  .info__title{
+    font-size: 150px;
+  }
+  .info__body{
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    width: 90%;
+  }
+  .explore {
+    margin-top: 100px;
+    width: 242px;
+    height: 242px;
+    & p {
+      font-size: 32px;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .home {
+    background-image: url("../../assets/home/background-home-desktop.jpg");
+  }
+
+}
+@media screen and (min-width: 1024px) {
+  .home{
+    padding-bottom: 150px;
+  }
+  .home-elements{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .info{
+    width: 450px;
+  }
+  .info__intro{
+    font-size: 28px;
+    text-align: left;
+  }  
+
+  .info__body{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    text-align: justify;
+  }
+  .explore {
+    width: 274px;
+    height: 274px;
+  }
+  .menu {
+    top: 40px;
+    background-color: transparent;
+    // backdrop-filter: blur(40px);
+  }
+  .menu-container {
+    background-color: transparent;
+    // backdrop-filter: none;
+
+  }
+  .menu.regresar {
+    width: 55vw;
+    backdrop-filter: blur(40px);
+  }
+
+}
