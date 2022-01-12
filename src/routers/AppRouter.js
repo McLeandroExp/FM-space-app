@@ -10,10 +10,10 @@ export const AppRouter = () => {
       <BrowserRouter>
         <div>
           <Routes>
-            <Route path="/FM-space-app/home" element={<Home />} />
-            <Route path="/FM-space-app/destination" element={<Destination />} />
-            <Route path="/FM-space-app/crew" element={<Crew />} />
-            <Route path="/FM-space-app/technology" element={<Technology />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/destination" element={<Destination />} />
+            <Route path="/crew" element={<Crew />} />
+            <Route path="/technology" element={<Technology />} />
             <Route path="/FM-space-app/" element={<Home />} />
           </Routes>
         </div>

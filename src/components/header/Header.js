@@ -12,6 +12,7 @@ export const Header = () => {
   const minWidth = 580;
   const { handleActive } = useContext(MenuContext);
   const {idxPage} = useContext(MenuContext)
+  
   const [screenWidth, setScreenWidth] = useState(window.screen.width);
   
   const resizeScreenFunc = () => {
