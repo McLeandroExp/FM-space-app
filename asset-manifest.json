@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reposi.../static/css/main.3e7f1b06.chunk.css",
+    "main.js": "/reposi.../static/js/main.0070f914.chunk.js",
+    "main.js.map": "/reposi.../static/js/main.0070f914.chunk.js.map",
+    "runtime-main.js": "/reposi.../static/js/runtime-main.6bbc2143.js",
+    "runtime-main.js.map": "/reposi.../static/js/runtime-main.6bbc2143.js.map",
+    "static/js/2.0b55725a.chunk.js": "/reposi.../static/js/2.0b55725a.chunk.js",
+    "static/js/2.0b55725a.chunk.js.map": "/reposi.../static/js/2.0b55725a.chunk.js.map",
+    "index.html": "/reposi.../index.html",
+    "static/css/main.3e7f1b06.chunk.css.map": "/reposi.../static/css/main.3e7f1b06.chunk.css.map",
+    "static/js/2.0b55725a.chunk.js.LICENSE.txt": "/reposi.../static/js/2.0b55725a.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/reposi.../static/media/background-technology-tablet.48c38b02.jpg",
+    "static/media/logo.565f7f2c.svg": "/reposi.../static/media/logo.565f7f2c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bbc2143.js",
+    "static/js/2.0b55725a.chunk.js",
+    "static/css/main.3e7f1b06.chunk.css",
+    "static/js/main.0070f914.chunk.js"
+  ]
+}
