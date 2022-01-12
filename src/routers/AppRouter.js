@@ -7,7 +7,7 @@ import { Technology } from "../components/Technology/Technology";
 export const AppRouter = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Routes>
             <Route path="/home" element={<Home />} />
