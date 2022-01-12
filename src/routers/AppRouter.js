@@ -14,7 +14,7 @@ export const AppRouter = () => {
             <Route path="/destination" element={<Destination />} />
             <Route path="/crew" element={<Crew />} />
             <Route path="/technology" element={<Technology />} />
-            <Route path="/FM-space-app/" element={<Home />} />
+            <Route path="/" element={<Home />} />
           </Routes>
         </div>
       </BrowserRouter>
